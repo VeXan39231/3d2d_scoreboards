@@ -21,12 +21,12 @@ black = Color( 0, 0, 0, 255 )
 	--Where does the scoreboard spawn?
 	local ang = Angle(  0, 180, 90 )
 	--What angles to the scoreboard spawn with?
-	local usematerial = "false"
+	local usematerial = false
 	--Should the scoreboard use a material for the background?
 	local material = Material( "" )
 	--What material does the scoreboard use if enabled?
 	local color = pink
-	--What color should the top bar be? red, green, blue, purple, orange, yellow, grey, black
+	--What color should the top bar be? red, green, blue, pink, orange, yellow, grey, black
 
 --Don't change anything below this line unless you're a competent Lua developer.
 
@@ -45,7 +45,7 @@ black = Color( 0, 0, 0, 255 )
 		cam.Start3D2D( pos, ang, 0.5 ) -- Start 3D2D
 
 			--Boxes
-			if usematerial == "false" then
+			if usematerial == false then
 			draw.RoundedBox( 6, 50, 50, 600, 35, Color( 0, 0, 0, 175 ))
 			draw.RoundedBox( 6, 50, 85, 600, 30*maxplayer, Color( 0, 0, 0, 175 ))--Use untextured box
 			else
