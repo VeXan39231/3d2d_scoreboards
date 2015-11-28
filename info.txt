@@ -1,0 +1,11 @@
+ "AddonInfo"
+ {
+    "name"                "3D2D Scoreboards for DarkRP"
+    "version"             "1.0"
+    "up_date"             "11-28-15"
+    "author_name"         "VeXan"
+    "author_email"        ""
+    "author_url"	  ""
+    "info"                ""
+    "override"            "0"
+ }
